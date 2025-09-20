@@ -151,7 +151,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <br>
 
-## 📅 **Week 4 — 🎯 T (Coming Soon)**
+## 📅 **Week 4 — 🎯 (Coming Soon)**
 
 <details>
 <summary><b>🛠️ Week 4: </b></summary>
@@ -176,7 +176,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <br>
 
-## 📊 Activity Graph (Contributions)
+## 📊 Activity Graph
 
 ![Tushar's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=tusharshenoy&theme=github-compact&hide_border=true)
 
