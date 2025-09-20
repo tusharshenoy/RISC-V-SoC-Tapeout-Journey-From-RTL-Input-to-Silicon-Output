@@ -187,7 +187,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 ### I am grateful to:
 
 * [**Kunal Ghosh**](https://github.com/kunalg123) and the [**VLSI System Design (VSD) Team**](https://vsdiat.vlsisystemdesign.com/) for enabling this unique learning experience.
-* [**RISC-V International**](https://riscv.org/), [**India Semiconductor Mission (ISM)**](https://ism.gov.in/), [**VLSI Society of India (VSI)**]([https://vsi.org.in/](https://www.linkedin.com/company/vlsi-society-of-india-vsi/posts/?feedView=all)), and [**Efabless**](Efabless) for supporting and driving this initiative.
+* [**RISC-V International**](https://riscv.org/), [**India Semiconductor Mission (ISM)**](https://ism.gov.in/), [**VLSI Society of India (VSI)**]([https://vsi.org.in/](https://www.linkedin.com/company/vlsi-society-of-india-vsi/posts/?feedView=all)) and [**Efabless**](Efabless) for supporting and driving this initiative.
 
 <br>
 
