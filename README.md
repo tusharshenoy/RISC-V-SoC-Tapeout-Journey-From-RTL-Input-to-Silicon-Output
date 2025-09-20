@@ -109,10 +109,10 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <br>
 
-## 📅 **Week 1 — 🚀 RTL Design (Coming Soon)**
+## 📅 **Week 1 — 🚀 (Coming Soon)**
 
 <details>
-<summary><b>🛠️ Week 1: RTL Design Tasks & Learnings</b></summary>
+<summary><b>🛠️ Week 1: </b></summary>
 
 > ⚠️ Content coming soon! You can link to a folder or Gist for detailed notes.
 
@@ -124,10 +124,10 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <br>
 
-## 📅 **Week 2 — 🔄 Synthesis (Coming Soon)**
+## 📅 **Week 2 — 🔄 (Coming Soon)**
 
 <details>
-<summary><b>🛠️ Week 2: RTL → Gate-Level Synthesis</b></summary>
+<summary><b>🛠️ Week 2: </b></summary>
 
 > ⚠️ Content coming soon! Link to folder or Gist for detailed tasks.
 
@@ -137,10 +137,10 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <br>
 
-## 📅 **Week 3 — 🏗️ Physical Design (Coming Soon)**
+## 📅 **Week 3 — 🏗️ (Coming Soon)**
 
 <details>
-<summary><b>🛠️ Week 3: Floorplanning & Routing</b></summary>
+<summary><b>🛠️ Week 3: </b></summary>
 
 - [Week 3 Folder](./week3/)
 
@@ -148,10 +148,10 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <br>
 
-## 📅 **Week 4 — 🎯 Tapeout Preparation (Coming Soon)**
+## 📅 **Week 4 — 🎯 T (Coming Soon)**
 
 <details>
-<summary><b>🛠️ Week 4: GDSII & Tapeout</b></summary>
+<summary><b>🛠️ Week 4: </b></summary>
 
 - [Week 4 Folder](./week4/)
 
