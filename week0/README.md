@@ -51,9 +51,9 @@ flowchart LR
 [![Yosys](https://img.shields.io/badge/Yosys-Latest-orange)](https://github.com/YosysHQ/yosys)
 [![License](https://img.shields.io/badge/License-BSD%202--Clause-green)](https://github.com/YosysHQ/yosys/blob/master/LICENSE)
 
-**Purpose:** Converts Verilog/VHDL RTL into a gate-level netlist, ready for further simulation or synthesis.
+### **Purpose:** Converts Verilog/VHDL RTL into a gate-level netlist, ready for further simulation or synthesis.
 
-**Installation Steps:**
+### **Installation Steps:**
 
 ```bash
 git clone https://github.com/YosysHQ/yosys.git
@@ -69,19 +69,18 @@ make
 sudo make install
 ```
 
-**Verification & Insights:**
+### **Verification & Insights:**
 
 * Run `yosys -V` to verify.
 * Learned how **dependencies like ABC submodule** are essential for successful synthesis.
 * Noted that missing dependencies can lead to obscure build errors — installing them upfront saves hours.
 
-<br>
+
 
 ### 🛠️ Step-by-Step
 
 This repository documents the step-by-step process for setting up the **Yosys Open Synthesis Suite** from source on **Ubuntu Linux**, including dependencies, submodule handling, build instructions, and troubleshooting tips.
 
-<br>
 
 ### 📖 Overview
 
@@ -93,7 +92,6 @@ Yosys is an open-source framework for Verilog RTL synthesis. This guide ensures 
 4. Build Yosys  
 5. Verify installation  
 
-<br>
 
 ### 1️⃣ Cloning the Yosys Repository
 
@@ -106,7 +104,6 @@ git clone https://github.com/YosysHQ/yosys.git
 
 > This operation downloads the full codebase and history from the official upstream source (over 95,000 objects).
 
----
 
 ### 2️⃣ Installing Build Dependencies
 
@@ -127,8 +124,6 @@ libboost-python-dev libboost-filesystem-dev zlib1g-dev
 <img width="1842" height="924" alt="Yosys Command 3" src="https://github.com/user-attachments/assets/2c6b0628-ef15-42a4-b9e2-ac9dd3342fa1" />
 
 > These packages provide compilers, linkers, parser generators, GUI tools and key libraries for Yosys.
-
-<br>
 
 
 ### 3️⃣ Building Yosys
@@ -158,7 +153,6 @@ make
 
 </details>
 
-<br>
 
 <details>
 <summary> Troubleshooting Common Issues ❌ Submodule Errors</summary>
@@ -172,7 +166,6 @@ git submodule update --init
 
 </details>
 
-<br>
 
 ### 4️⃣ Verification
 
@@ -185,7 +178,6 @@ yosys -V
 
 > Should print the Yosys version without errors. Test with a simple Verilog file to confirm successful setup.
 
-<br>
 
 ### 📝 Notes
 
@@ -201,9 +193,9 @@ yosys -V
 [![iverilog](https://img.shields.io/badge/iverilog-Latest-orange)](http://iverilog.icarus.com/)
 [![License](https://img.shields.io/badge/License-GPLv2-green)](http://iverilog.icarus.com/)
 
-**Purpose:** Compiles and simulates RTL designs for functional verification.
+### **Purpose:** Compiles and simulates RTL designs for functional verification.
 
-## 📖 Overview
+### 📖 Overview
 
 iverilog allows compiling and simulating Verilog HDL designs efficiently. It is primarily used for:
 
@@ -224,7 +216,6 @@ sudo apt-get install iverilog
 
 > Installs the compiler and simulator binaries required for Verilog simulation.
 
-<br>
 
 ### 2️⃣ Verifying the Installation
 
@@ -249,7 +240,6 @@ sudo apt-get upgrade iverilog
 
 </details>
 
-<br>
 
 ### 📝 Notes
 
@@ -266,9 +256,8 @@ sudo apt-get upgrade iverilog
 [![GTKWave](https://img.shields.io/badge/GTKWave-Latest-orange)](http://gtkwave.sourceforge.net/)
 [![License](https://img.shields.io/badge/License-GPL-green)](http://www.gnu.org/licenses/)
 
-**Purpose:** GTKWave is a waveform viewer used to visualize **digital simulation outputs**, essential for debugging and verifying RTL designs.
+### **Purpose:** GTKWave is a waveform viewer used to visualize **digital simulation outputs**, essential for debugging and verifying RTL designs.
 
-<br>
 
 ### 📖 Overview
 
@@ -276,7 +265,6 @@ sudo apt-get upgrade iverilog
 - Allows detailed inspection of **signal transitions, timing, and logic behavior**.  
 - Lightweight and widely used in digital design workflows.
 
-<br>
 
 ### 1️⃣ Installation
 
@@ -286,7 +274,6 @@ sudo apt install gtkwave
 ````
 <img width="1829" height="995" alt="Screenshot from 2025-09-20 13-19-10" src="https://github.com/user-attachments/assets/762857ee-bb77-43e6-90e4-ce2a5df81912" />
 
-<br>
 
 ### 2️⃣ Verification
 
@@ -299,7 +286,6 @@ gtkwave
 
 > GUI should launch successfully, confirming proper installation.
 
-<br>
 
 ### 3️⃣ Usage & Insights
 
@@ -321,7 +307,6 @@ gtkwave simulation.vcd
 
 </details>
 
-<br>
 
 ### 📝 Notes
 
@@ -329,7 +314,7 @@ gtkwave simulation.vcd
 * Complements **iverilog**, forming a complete digital simulation workflow.
 * Lightweight, fast, and easy to integrate into automated simulation scripts.
 
-
+<br>
 
 ## 4️⃣ 🖥️ Ngspice – Circuit Simulation
 
@@ -337,19 +322,16 @@ gtkwave simulation.vcd
 [![Ngspice](https://img.shields.io/badge/Ngspice-Latest-green)](http://ngspice.sourceforge.net/)
 [![License](https://img.shields.io/badge/License-GPL-green)](http://www.gnu.org/licenses/)
 
-**Purpose:** Ngspice is an **open-source SPICE simulator** for analog and mixed-signal circuits, used for verifying voltage/current behavior before hardware implementation.
+### **Purpose:** Ngspice is an **open-source SPICE simulator** for analog and mixed-signal circuits, used for verifying voltage/current behavior before hardware implementation.
 
-<br>
-
-## 📖 Overview
+### 📖 Overview
 
 - Performs **transient, AC, DC, and mixed-signal analyses**.  
 - Supports voltage/current plotting for analog/mixed-signal circuits.  
 - Useful for testing **filters, amplifiers, and analog sub-circuits**.
 
-<br>
 
-## 1️⃣ Installation
+### 1️⃣ Installation
 
 ```bash
 sudo apt update
@@ -357,9 +339,9 @@ sudo apt install ngspice
 ````
 <img width="1833" height="720" alt="ngspice Installation" src="https://github.com/user-attachments/assets/e94dfbaa-d65b-4168-9a6b-12050cb79873" />
 
-<br>
 
-## 2️⃣ Verification
+
+### 2️⃣ Verification
 
 Check version to verify installation:
 
@@ -372,9 +354,8 @@ ngspice -v
 
 > Should display Ngspice version information, confirming successful setup.
 
-<br>
 
-## 3️⃣ Usage & Insights
+### 3️⃣ Usage & Insights
 
 * Run a simple SPICE simulation:
 
@@ -406,9 +387,8 @@ plot i(V1)
 
 </details>
 
-<br>
 
-## 📝 Notes
+### 📝 Notes
 
 * Verified on **Ubuntu 22.04.5 (September 2025)**
 * Complements **digital simulation tools** like iverilog/GTKWave for full-system verification.
@@ -422,9 +402,9 @@ plot i(V1)
 [![Magic VLSI](https://img.shields.io/badge/Magic-Latest-orange)](https://github.com/RTimothyEdwards/magic)
 [![License](https://img.shields.io/badge/License-BSD-green)](https://github.com/RTimothyEdwards/magic/blob/master/LICENSE)
 
-**Purpose:** Magic VLSI is an open-source **layout tool** used for designing, editing, and verifying integrated circuit layouts.
+### **Purpose:** Magic VLSI is an open-source **layout tool** used for designing, editing, and verifying integrated circuit layouts.
 
-<br>
+
 
 ### 📖 Overview
 
@@ -432,7 +412,6 @@ plot i(V1)
 - Perform **Design Rule Checks (DRC)** to ensure manufacturability.  
 - Connects synthesized RTL to physical layout, forming a base for **Place & Route (PnR)** workflows.
 
----
 
 ### 1️⃣ Installation
 
@@ -450,7 +429,6 @@ sudo make install
 ````
 <img width="1829" height="991" alt="Magic Installation" src="https://github.com/user-attachments/assets/b732fa85-924b-4635-af27-b85f6a9231a0" />
 
-<br>
 
 ### 2️⃣ Verification
 
@@ -466,8 +444,6 @@ magic
 <img width="1835" height="1040" alt="Magic Verification 2" src="https://github.com/user-attachments/assets/fa69b105-9c6a-4fb1-99e5-1280314d7c2a" />
 
 > GUI should launch successfully, allowing interactive layout editing.
-
-<br>
 
 ### 3️⃣ Usage & Insights
 
@@ -486,9 +462,8 @@ magic newlayout
 
 </details>
 
-<br>
 
-## 📝 Notes
+### 📝 Notes
 
 * Verified on **Ubuntu 22.04.5 (September 2025)**
 * Essential for **VLSI physical design education** and hands-on layout practice.
@@ -505,6 +480,7 @@ magic newlayout
 | 📊 GTKWave    | ✅ Installed | Waveform Analysis  | Visual signal debugging enhances understanding    |
 | ⚡ Ngspice     | ✅ Installed | Circuit Simulation | Analog/mixed-signal verification                  |
 | 🎨 Magic VLSI | ✅ Installed | Layout Design      | Understanding of DRC and layout flow              |
+
 
 ✅ **Week 0 Takeaways:**
 
@@ -523,5 +499,6 @@ magic newlayout
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Begin **RTL design** and turn concepts into synthesizable Verilog code, ready for simulation and verification.
+
 
 
