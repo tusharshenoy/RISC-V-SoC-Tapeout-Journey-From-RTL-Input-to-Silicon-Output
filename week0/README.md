@@ -491,7 +491,77 @@ magic newlayout
 
 <br>
 
-## 👨‍💻 Author & Repository
+# 🖥️ VLSI Tools Installation Script
+
+This repository provides a **smart setup script** for installing and verifying essential VLSI/EDA tools on Ubuntu 22.04.5 LTS. It ensures your environment is ready for **RTL design, simulation, waveform viewing, circuit simulation, and layout design**.
+
+
+## 🚀 Overview
+
+The script, `toolinstallationscript.sh`, does the following:
+
+1. Checks if the tool is already installed
+2. If installed → prints the current version
+3. If missing → installs the tool automatically
+4. Pauses between steps for verification and progress tracking
+
+**Tools handled by the script:**
+
+| #️⃣ | Tool           | Purpose                                 |
+| --- | -------------- | --------------------------------------- |
+| 1️⃣ | Yosys          | RTL synthesis                           |
+| 2️⃣ | Icarus Verilog | Verilog compilation & simulation        |
+| 3️⃣ | GTKWave        | Waveform viewer for simulation outputs  |
+| 4️⃣ | Ngspice        | Analog & mixed-signal circuit simulator |
+| 5️⃣ | Magic VLSI     | Layout design and DRC tool              |
+
+
+## ⚙️ Usage Instructions
+
+### 1️⃣ Clone the repository (if using GitHub)
+
+```bash
+git clone <your-repo-url>
+cd <your-repo-folder>
+```
+
+### 2️⃣ Make the script executable
+
+```bash
+chmod 777 toolinstallationscript.sh
+```
+
+### 3️⃣ Run the script
+
+```bash
+./toolinstallationscript.sh
+```
+
+* The script will pause after each tool for you to verify installation.
+* Existing tools will not be reinstalled; their version will be printed.
+
+
+## 📝 Notes & Tips
+
+* Ensure **active internet connection** for cloning repositories and installing dependencies.
+* **Yosys and Magic VLSI** are built from source, which may take several minutes depending on your CPU.
+* Keep this script updated with new tools or updated versions for future VLSI projects.
+
+
+
+## ✅ Verification
+
+After running the script, you can verify each tool manually:
+
+```bash
+yosys -V
+iverilog -v
+gtkwave --version
+ngspice -v
+magic -version
+```
+
+ Author & Repository
 
 **Author:** T Tushar Shenoy
 
@@ -500,6 +570,7 @@ magic newlayout
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Begin **RTL design** and turn concepts into synthesizable Verilog code, ready for simulation and verification.
+
 
 
 
