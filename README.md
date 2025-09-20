@@ -40,14 +40,16 @@ graph LR
 | 📈 **Scalability**        | Practical exposure to handling designs that scale from RTL to physical layout       |
 | 🇮🇳 **National Impact**  | Strengthening India’s semiconductor design and VLSI ecosystem                       |
 
+<br>
 
 ## 🛠️ Tools & Skills
 
 <div align="center">
 
 ![Verilog](https://img.shields.io/badge/Verilog-RTL-blue?logo=verilog\&style=for-the-badge)
-![Yosys](https://img.shields.io/badge/Yosys-Synthesis-red?logo=gnu\&style=for-the-badge)
+![Icarus](https://img.shields.io/badge/Icarus-verilog-violet?logo=gnu\&style=for-the-badge)
 ![GTKWave](https://img.shields.io/badge/GTKWave-Simulation-green?logo=waveform\&style=for-the-badge)
+![Yosys](https://img.shields.io/badge/Yosys-Synthesis-red?logo=gnu\&style=for-the-badge)
 ![NGSpice](https://img.shields.io/badge/NGSpice-purple?logo=open-access\&style=for-the-badge)
 ![Magic](https://img.shields.io/badge/Magic-Layout-orange?logo=magic\&style=for-the-badge)
 ![SCL180](https://img.shields.io/badge/SCL180-PDK-lightgrey?logo=chip\&style=for-the-badge)
@@ -56,13 +58,8 @@ graph LR
 
 <br>
 
-
-<br>
-
-## 📅 **Week 0 — Foundation & Tools Setup**
-
 <details>
-<summary><b>Installing & Configuring the EDA Toolchain</b></summary>
+<summary><h2> 📅 Week 0 — Foundation & Tools Setup</h2></summary>
 <br>
   
 Week 0 was all about **preparing the sandbox**: installing, verifying and configuring the open-source EDA environment that powers the RTL-to-GDSII flow.
@@ -107,13 +104,8 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 </details>
 
-
-<br>
-
-## 📅 **Week 1 — 🚀 (Coming Soon)**
-
 <details>
-<summary><b>🛠️ Week 1: </b></summary>
+<summary><h2>📅Week 1 — 🚀 (Coming Soon)</h2></summary>
 
 > ⚠️ Content coming soon!
 
@@ -123,12 +115,8 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 </details>
 
-<br>
-
-## 📅 **Week 2 — 🔄 (Coming Soon)**
-
 <details>
-<summary><b>🛠️ Week 2: </b></summary>
+<summary><h2>📅 Week 2 — 🔄 (Coming Soon) </h2></summary>
 
 > ⚠️ Content coming soon!
 
@@ -136,12 +124,9 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 </details>
 
-<br>
-
-## 📅 **Week 3 — 🏗️ (Coming Soon)**
 
 <details>
-<summary><b>🛠️ Week 3: </b></summary>
+<summary><h2>📅 Week 3 — 🏗️ (Coming Soon)</h2></summary>
     
 > ⚠️ Content coming soon!
     
@@ -149,12 +134,9 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 </details>
 
-<br>
-
-## 📅 **Week 4 — 🎯 (Coming Soon)**
 
 <details>
-<summary><b>🛠️ Week 4: </b></summary>
+<summary><h2>📅 Week 4 — 🎯 (Coming Soon) </h2></summary>
 
 > ⚠️ Content coming soon!
 
