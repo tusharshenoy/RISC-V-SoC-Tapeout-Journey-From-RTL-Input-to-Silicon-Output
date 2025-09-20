@@ -431,12 +431,16 @@ ngspice -v
 * Run a simple SPICE simulation:
 
 ```spice
-* simple RC circuit
-V1 in 0 DC 5
-R1 in out 1k
-C1 out 0 1u
-.tran 0.1ms 10ms
+* Simple resistor circuit
+V1 in 0 0           ; Voltage source (value will be swept)
+R1 in 0 1k          ; Resistor of 1k ohm
+
+.dc V1 0 10 1       ; Sweep V1 from 0V to 10V in steps of 1V
+.print dc V(in) I(R) ; Print voltage and current
+.plot dc I(V1)       ; Plot current vs voltage
+
 .end
+
 ```
 
 ```bash
@@ -450,8 +454,9 @@ ngspice circuit.sp
 <summary>💡 Tip: Use interactive plotting</summary>
 
 ```bash
-plot v(out)
-plot i(V1)
+run
+plot I(V1)
+print V(in) I(V1)
 ```
 
 > Interactive commands allow zooming, tracing, and analyzing signals in Ngspice.
@@ -572,6 +577,7 @@ magic newlayout
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
