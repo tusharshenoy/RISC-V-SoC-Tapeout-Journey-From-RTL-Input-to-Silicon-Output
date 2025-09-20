@@ -36,7 +36,7 @@ graph LR
 ![Verilog](https://img.shields.io/badge/Verilog-RTL-blue?logo=verilog\&style=for-the-badge)
 ![Yosys](https://img.shields.io/badge/Yosys-Synthesis-red?logo=gnu\&style=for-the-badge)
 ![GTKWave](https://img.shields.io/badge/GTKWave-Simulation-green?logo=waveform\&style=for-the-badge)
-![OpenLane](https://img.shields.io/badge/OpenLane-PnR-purple?logo=open-access\&style=for-the-badge)
+![NGSpice](https://img.shields.io/badge/NGSpice-purple?logo=open-access\&style=for-the-badge)
 ![Magic](https://img.shields.io/badge/Magic-Layout-orange?logo=magic\&style=for-the-badge)
 ![SCL180](https://img.shields.io/badge/SCL180-PDK-lightgrey?logo=chip\&style=for-the-badge)
 
