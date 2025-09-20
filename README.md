@@ -153,6 +153,17 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 </details>
 
 <br>
+## 📅 **Week 4 — 🎯 Tapeout Preparation (Coming Soon)**
+
+<details>
+<summary><b>🛠️ Week 4: GDSII & Tapeout</b></summary>
+
+- [Week 4 Folder](./week4/)
+- [Gist for Week 4](https://gist.github.com/yourusername/gistid)
+
+</details>
+
+<br>
 
 ## 📌 Tracker
 
@@ -194,21 +205,6 @@ I am grateful to:
 I am **Tushar Shenoy**, passionate about **VLSI design and semiconductor systems**.
 This repository is not just about completing tasks, but about **documenting a learning journey** that bridges **academia → industry → real silicon**.
 
-📌 Follow along as I share weekly updates, technical insights, and project outcomes!
-
+📌 Follow along as I share weekly updates, technical insights and project outcomes!
 
 🔥 *Journey from code → circuits → chips continues… Stay tuned!*
-
-
-
-
-## 📅 **Week 4 — 🎯 Tapeout Preparation (Coming Soon)**
-
-<details>
-<summary><b>🛠️ Week 4: GDSII & Tapeout</b></summary>
-
-- [Week 4 Folder](./week4/)
-- [Gist for Week 4](https://gist.github.com/yourusername/gistid)
-
-</details>
-
