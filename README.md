@@ -52,7 +52,7 @@ graph LR
 | Aspect                    | Details                                                                             |
 | ------------------------- | ----------------------------------------------------------------------------------- |
 | 🎓 **Learning Path**      | End-to-end SoC Design covering RTL → Synthesis → Physical Design → Tapeout          |
-| 🛠️ **Tools Ecosystem**   | Open-source EDA stack (Icarus Verilog, Yosys, OpenLane, Magic, KLayout, Sky130 PDK) |
+| 🛠️ **Tools Ecosystem**   | Open-source EDA stack (Icarus Verilog, Yosys, ngspice, OpenLane, Magic, SCL180 PDK) |
 | 🏭 **Industry Relevance** | Mimics real-world semiconductor design methodologies & tapeout flows                |
 | 🤝 **Collaboration**      | Contributing alongside 3500+ participants in India’s largest RISC-V SoC initiative  |
 | 📈 **Scalability**        | Practical exposure to handling designs that scale from RTL to physical layout       |
