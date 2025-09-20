@@ -104,15 +104,18 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 <br>
 
 ### 🔧 **Tasks Completed**
-
+<div align="center">
+  
 | Task  | Description                           | Tools Installed            | Status      |
 | ----- | ------------------------------------- | -------------------------- | ----------- |
 | **0** | Tool Installation & Environment Setup | Full Open-Source EDA Stack | ✅ Completed |
 
+</div>
 <br>
 
 ### 🛠️ **Installed Tools Overview**
-
+<div align="center">
+  
 | Tool               | Purpose                             | Status     |
 | ------------------ | ----------------------------------- | ---------- |
 | **Yosys**          | RTL synthesis & logic optimization  | ✅ Verified |
@@ -120,7 +123,8 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 | **GTKWave**        | Waveform inspection & debugging     | ✅ Verified |
 | **Ngspice**        | Analog & mixed-signal simulation    | ✅ Verified |
 | **Magic VLSI**     | Layout design & DRC/LVS checks      | ✅ Verified |
-
+  
+</div>div>
 <br>
 
 **Key Learnings:**
@@ -178,6 +182,8 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 ## 📌 Progress Tracker
 
+<div align="center">
+  
 | Week | Activity        | Progress                                      |
 | ---- | --------------- | --------------------------------------------- |
 | 0    | ![Week 0](https://img.shields.io/badge/Week%200-Tools%20Setup-success?style=flat-square)  | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% |
@@ -186,6 +192,8 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 | 3    | ![Week 1](https://img.shields.io/badge/Week%203-Upcoming-lightgrey?style=flat-square) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%                       |
 | 4    | ![Week 1](https://img.shields.io/badge/Week%204-Upcoming-lightgrey?style=flat-square)   | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%                       |
 
+
+</div>
 <br>
 
 ## 📊 Activity Graph
