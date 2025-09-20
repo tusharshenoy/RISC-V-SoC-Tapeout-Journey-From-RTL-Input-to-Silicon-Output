@@ -618,30 +618,35 @@ R1 in 0 1k          ; Resistor of 1k ohm
 ngspice circuit.sp
 ```
 
-* Plot voltage/current waveforms to inspect circuit behavior.
-* Helps identify analog design issues **before fabrication**.
+```bash
+run
+print V(in) I(V1)
+plot I(V1)
+```
 
 <details>
 <summary>💡 Tip: Use interactive plotting</summary>
-
-```bash
-run
-plot I(V1)
-print V(in) I(V1)
-```
-
-> Interactive commands allow zooming, tracing, and analyzing signals in Ngspice.
+* Plot voltage/current waveforms to inspect circuit behavior.
+* Helps identify analog design issues **before fabrication**.
+* Interactive commands allow zooming, tracing and analyzing signals in Ngspice.
 
 </details>
 
 </details>
 
+<br>
 
 ✅ **Week 0 Takeaways:**
 
-* Built a **reliable toolchain** for full VLSI workflow.
-* Understood **roles of synthesis, simulation, waveform viewing and layout**.
-* Prepared my system to **transition seamlessly into RTL design next week**.
+* Built a **reliable toolchain** for the full VLSI workflow.
+* Understood the **roles of synthesis, simulation, waveform viewing, circuit simulation, and layout**.
+* Verified each tool **practically** by:
+  * **Simulating** RTL designs using Icarus Verilog and GTKWave
+  * **Synthesizing** designs with Yosys
+  * **Plotting** signals and verifying behavior in Ngspice
+  * Exploring **layout and DRC** in Magic VLSI
+* Prepared my system to **transition seamlessly into RTL design next week**, confident that all tools are fully operational.
+
 
 <br>
 
@@ -655,6 +660,7 @@ print V(in) I(V1)
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
