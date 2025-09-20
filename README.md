@@ -30,7 +30,6 @@ graph LR
     PD --> V[✅🟣 Verification & Signoff]
     V --> TO[🎯🔴 Tapeout Ready 🚀]
 ```
-<br>
 
 ## 🛠️ Tools & Skills
 
@@ -150,6 +149,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 </details>
 
 <br>
+
 ## 📅 **Week 4 — 🎯 Tapeout Preparation (Coming Soon)**
 
 <details>
@@ -173,7 +173,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <br>
 
-## 📊 Activity Graph (Dynamic Learning Journey)
+## 📊 Activity Graph
 
 ![Tushar's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=tusharshenoy&theme=github-compact&hide_border=true)
 
@@ -181,25 +181,34 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 ## 🙏 **Acknowledgments**
 
-I am grateful to:
+### I am grateful to:
 
 * [**Kunal Ghosh**](https://github.com/kunalg123) and the [**VLSI System Design (VSD) Team**](https://vsdiat.vlsisystemdesign.com/) for enabling this unique learning experience.
-* [**RISC-V International**](https://riscv.org/), [**India Semiconductor Mission (ISM)**](https://ism.gov.in/), [**VLSI Society of India (VSI)**](https://vsi.org.in/), and [**Efabless**](Efabless) for supporting and driving this initiative.
+* [**RISC-V International**](https://riscv.org/), [**India Semiconductor Mission (ISM)**](https://ism.gov.in/), [**VLSI Society of India (VSI)**]([https://vsi.org.in/](https://www.linkedin.com/company/vlsi-society-of-india-vsi/posts/?feedView=all)), and [**Efabless**](Efabless) for supporting and driving this initiative.
 
 <br>
 
 ## 🔗 Program Links
 
-[![VSD Website](https://img.shields.io/badge/VSD-Official%20Website-blue?style=flat-square)](https://vsdiat.vlsisystemdesign.com/)
-[![RISC-V](https://img.shields.io/badge/RISC--V-International-green?style=flat-square)](https://riscv.org/)
-[![Efabless](https://img.shields.io/badge/Efabless-Platform-orange?style=flat-square)](https://efabless.com/)
+[![VSD Website](https://img.shields.io/badge/VSD-Official%20Website-blue?style=flat-square)](https://vsdiat.vlsisystemdesign.com/)  
+👉 The official portal for the VSD SoC Tapeout Program, where tasks, resources, and community discussions are hosted.  
+
+[![RISC-V](https://img.shields.io/badge/RISC--V-International-green?style=flat-square)](https://riscv.org/)  
+👉 Home of the **RISC-V instruction set architecture**, providing open standards for CPUs used in this tapeout journey.  
+
+[![Efabless](https://img.shields.io/badge/Efabless-Platform-orange?style=flat-square)](https://efabless.com/)  
+👉 A community-driven platform for **open-source silicon design** and shuttle runs where our designs eventually get fabricated.  
 
 <br>
 
 ## 👨‍💻 About Me
 
 I am **Tushar Shenoy**, passionate about **VLSI design and semiconductor systems**.
-This repository is not just about completing tasks, but about **documenting a learning journey** that bridges **academia → industry → real silicon**.
+This repository goes beyond simply completing weekly tasks, it is a **living record of my learning journey** in the world of chip design. Through this, I aim to capture the process of translating **academic concepts into industry practices** and eventually, into **real silicon implementations**.
+
+The goal is not just to master tool installations or follow steps mechanically, but to **understand the “why” behind every stage**, from setting up the design environment to implementing architectures, running simulations and analyzing results.
+
+In short, this repository reflects my transition from **student-level exploration → professional design methodologies → silicon-ready workflows**, building the foundation for a career in **semiconductor technology and RTL design**.
 
 📌 Follow along as I share weekly updates, technical insights and project outcomes!
 
