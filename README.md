@@ -75,7 +75,6 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 ### 🔗 **Access Week 0 Details**
 - [Week 0 Folder](./week0/)
-- [Gist for Week 0](https://gist.github.com/tusharshenoy/gistid)
 
 <br>
 
@@ -122,7 +121,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 ### 🔗 **Access Week 1 Details**
 - [Week 1 Folder](./week1/)
-- [Gist for Week 1](https://gist.github.com/tusharshenoy/gistid)
+
 
 </details>
 
@@ -136,7 +135,6 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 > ⚠️ Content coming soon! Link to folder or Gist for detailed tasks.
 
 - [Week 2 Folder](./week2/)
-- [Gist for Week 2](https://gist.github.com/yourusername/gistid)
 
 </details>
 
@@ -148,7 +146,6 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 <summary><b>🛠️ Week 3: Floorplanning & Routing</b></summary>
 
 - [Week 3 Folder](./week3/)
-- [Gist for Week 3](https://gist.github.com/yourusername/gistid)
 
 </details>
 
@@ -159,7 +156,6 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 <summary><b>🛠️ Week 4: GDSII & Tapeout</b></summary>
 
 - [Week 4 Folder](./week4/)
-- [Gist for Week 4](https://gist.github.com/yourusername/gistid)
 
 </details>
 
