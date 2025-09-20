@@ -21,14 +21,12 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 
 ## 🖥️ System Configuration
 
-I’m running a **native Ubuntu 22.04.5 LTS system**, optimized for VLSI/EDA tools.
-
-| Specification | Required          | My System                               | Why It Matters                                                          |
-| ------------- | ------------- | --------------------------------------- | ----------------------------------------------------------------------- |
-| 🐧 OS         | Ubuntu 20.04+ | Ubuntu 22.04.5 LTS                      | Most open-source VLSI tools are tested on Linux, ensures compatibility. |
-| 💾 RAM        | 6 GB          | 7.1 GB total (\~2.9 GB free)            | Enough to handle synthesis and simulation tasks without lag.            |
-| 💿 Storage    | 50 GB HDD     | 214 GB NVMe (45 GB free)                | Stores tools, source files, and simulation results.                     |
-| ⚡ CPU         | 4 cores       | AMD Ryzen 5 4600H, 6 cores / 12 threads | Multi-threaded compilation and synthesis speed up RTL processing.       |
+| Specification | Required      | My System                               | Benefit                                                       |
+| ------------- | ------------- | --------------------------------------- | ------------------------------------------------------------- |
+| 🐧 OS         | Ubuntu 20.04+ | Ubuntu 22.04.5 LTS                      | Ensures compatibility with most open-source VLSI tools.       |
+| 💾 RAM        | 6 GB          | 7.1 GB total (\~2.9 GB free)            | Handles synthesis and simulation without lag.                 |
+| 💿 Storage    | 50 GB HDD     | 214 GB NVMe (45 GB free)                | Enough space for tools, source files, and simulation results. |
+| ⚡ CPU         | 4 cores       | AMD Ryzen 5 4600H, 6 cores / 12 threads | Multi-threaded RTL processing is faster.                      |
 
 
 <br>
@@ -577,6 +575,7 @@ magic newlayout
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
