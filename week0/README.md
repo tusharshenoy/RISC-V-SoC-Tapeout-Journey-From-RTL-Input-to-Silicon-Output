@@ -31,6 +31,20 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 
 <br>
 
+
+## 🔗 Week 0 Quick Links
+
+| Tool / Section         | Description                                         | Link                                             |
+| ---------------------- | --------------------------------------------------- | ------------------------------------------------ |
+| 🧠 Yosys               | RTL synthesis tool                                  | [Go to Yosys](#yosys)        |
+| 📟 Icarus Verilog      | Compile & simulate Verilog HDL                      | [Go](#2️⃣-iverilog--verilog-simulation-🖥️)      |
+| 📊 GTKWave             | Waveform viewer for Verilog simulations             | [Go](#3️⃣-🖥️-gtkwave--waveform-viewer)          |
+| ⚡ Ngspice              | Analog / mixed-signal circuit simulation            | [Go](#4️⃣-🖥️-ngspice--circuit-simulation)       |
+| 🎨 Magic VLSI          | Layout & DRC tool for IC design                     | [Go](#5️⃣-🖥️-magic-vlsi--layout-tool)           |
+| 🖥️ Verilog Simulation | Full adder example simulation with Icarus & GTKWave | [Go](#21-verilog-simulation-example--full-adder) |
+
+
+
 ## ⚙️ Week 0 Tool Installation & Insights
 
 This week, I installed **5 essential tools** for the VLSI workflow:
@@ -115,7 +129,7 @@ magic -version
 
 <br>
 
-## 1️⃣ Yosys – RTL Synthesis Tool
+<h2 id="yosys">1️⃣ Yosys – RTL Synthesis Tool</h2>
 
 [![Ubuntu](https://img.shields.io/badge/OS-Ubuntu_22.04.5-blue)](https://ubuntu.com/)
 [![Yosys](https://img.shields.io/badge/Yosys-Latest-orange)](https://github.com/YosysHQ/yosys)
@@ -424,44 +438,6 @@ ngspice -v
 > Should display Ngspice version information, confirming successful setup.
 
 
-### 3️⃣ Usage & Insights
-
-* Run a simple SPICE simulation:
-
-```spice
-* Simple resistor circuit
-V1 in 0 0           ; Voltage source (value will be swept)
-R1 in 0 1k          ; Resistor of 1k ohm
-
-.dc V1 0 10 1       ; Sweep V1 from 0V to 10V in steps of 1V
-.print dc V(in) I(R) ; Print voltage and current
-.plot dc I(V1)       ; Plot current vs voltage
-
-.end
-
-```
-
-```bash
-ngspice circuit.sp
-```
-
-* Plot voltage/current waveforms to inspect circuit behavior.
-* Helps identify analog design issues **before fabrication**.
-
-<details>
-<summary>💡 Tip: Use interactive plotting</summary>
-
-```bash
-run
-plot I(V1)
-print V(in) I(V1)
-```
-
-> Interactive commands allow zooming, tracing and analyzing signals in Ngspice.
-
-</details>
-
-
 ### 📝 Notes
 
 * Verified on **Ubuntu 22.04.5 (September 2025)**
@@ -575,6 +551,7 @@ magic newlayout
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
