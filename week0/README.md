@@ -38,6 +38,8 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 
 ## 🔗 Week 0 Quick Links
 
+<div align="center">
+
 | Tool / Section         | Description                                         | Link                                             |
 | ---------------------- | --------------------------------------------------- | ------------------------------------------------ |
 | 🖥️ VLSI Tools Installation Script  | Script to Install whole setup           | [Go to Script](#vlsi-tools-installation)       |
@@ -48,6 +50,7 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 | 🎨 Magic VLSI          | Layout & DRC tool for IC design                     | [Go to Magic VLSI](#magic)          |
 | 🖥️ How to Use ?| Full adder example simulation/synthesis with Icarus, GTKWave & yosys <br> Example of Ngspice and Magic| [Go to How to Use](#how-to-use) |
 
+</div>
 <br>
 
 ## ⚙️ Week 0 Tool Installation & Insights
@@ -181,9 +184,8 @@ Yosys is an open-source framework for Verilog RTL synthesis. This guide ensures 
 
 1. Clone the official repository  
 2. Install build dependencies  
-3. Initialize and update submodules  
-4. Build Yosys  
-5. Verify installation  
+3. Build Yosys  
+4. Verify installation  
 
 
 ### 1️⃣ Cloning the Yosys Repository
@@ -680,9 +682,7 @@ plot V(1) I(V1)
   * Exploring **layout and DRC** in Magic VLSI
 * Prepared my system to **transition seamlessly into RTL design next week**, confident that all tools are fully operational.
 
-
 <br>
-
 
 ## Author & Repository
 
@@ -693,5 +693,6 @@ plot V(1) I(V1)
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
