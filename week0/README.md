@@ -371,27 +371,6 @@ gtkwave
 > GUI should launch successfully, confirming proper installation.
 
 
-### 3️⃣ Usage & Insights
-
-* Open `.vcd` files from iverilog simulations:
-
-```bash
-gtkwave simulation.vcd
-```
-
-* Zoom, pan and inspect signal transitions to catch design errors early.
-* Ideal for visual debugging and confirming correctness of RTL modules.
-
-<details>
-<summary>💡 Tip: Use keyboard shortcuts</summary>
-
-* `Ctrl+F` – Find signals
-* `Ctrl+G` – Go to time marker
-* `Ctrl+S` – Save waveform configuration
-
-</details>
-
-
 ### 📝 Notes
 
 * Verified on **Ubuntu 22.04.5 (September 2025)**
@@ -496,23 +475,6 @@ magic
 
 > GUI should launch successfully, allowing interactive layout editing.
 
-### 3️⃣ Usage & Insights
-
-* **Layout editing:** Create and modify cells and interconnects.
-* **Design Rule Checks (DRC):** Verify layout rules for manufacturability.
-* **RTL correlation:** Observe how layout relates to synthesized RTL, essential for **Place & Route (PnR)**.
-
-<details>
-<summary>💡 Tip: Start a new layout</summary>
-
-```bash
-magic newlayout
-```
-
-* Opens a new layout window where you can create cells, draw polygons and check DRC interactively.
-
-</details>
-
 
 ### 📝 Notes
 
@@ -536,6 +498,135 @@ magic newlayout
 
 <h2 id="how-to-use">🖥️ How to Use ?</h2>
 
+### 🖥️ Full Adder Example Simulation & Synthesis
+
+This demonstrates a **full adder design workflow** using **Icarus Verilog, GTKWave and Yosys** for digital simulation and synthesis.  
+Verilog files are inside the `Verilog Simulation` folder, while analog examples using Ngspice are in `Spice Simulation`.
+
+<details>
+<summary>1️⃣ Verilog Simulation (Icarus & GTKWave)</summary>
+
+<br>
+
+Files in `Verilog Simulation`:
+
+* `full_adder.v` – Full adder module
+* `full_adder_tb.v` – Testbench for the full adder
+* `full_adder.vcd` – Generated waveform file
+
+**Simulation Steps:**
+
+1. **Compile the Verilog files:**
+
+```bash
+iverilog -o full_adder_wave full_adder.v full_adder_tb.v
+````
+
+2. **Run the simulation:**
+
+```bash
+vvp full_adder_wave
+```
+
+This generates the `full_adder.vcd` waveform file.
+
+3. **View waveforms with GTKWave:**
+
+```bash
+gtkwave full_adder.vcd
+```
+
+> Notes:
+> * Ensure **Icarus Verilog** and **GTKWave** are installed.
+> * You can replace the module and testbench with other designs for a similar simulation workflow.
+> * Zoom, pan and inspect signal transitions to catch design errors early.
+> * Ideal for visual debugging and confirming correctness of RTL modules.
+
+
+<br>
+
+💡 Tip: Use keyboard shortcuts</summary>
+
+* `Ctrl+F` – Find signals
+* `Ctrl+G` – Go to time marker
+* `Ctrl+S` – Save waveform configuration
+
+
+</details>
+
+
+<details>
+    
+<summary>2️⃣ RTL Synthesis with Yosys</summary>
+
+Files in `Verilog Simulation` (same folder):
+
+* `full_adder.v` – Full adder module
+
+**Synthesis Steps:**
+
+```bash
+yosys
+```
+
+Inside Yosys console:
+
+```yosys
+read_verilog full_adder.v
+synth -top full_adder
+show
+write_json full_adder.json
+```
+
+> * `show` opens a graphical netlist view.
+> * `write_json` generates a netlist file for further use in backend flows.
+
+</details>
+
+<details>
+<summary>3️⃣ Ngspice – SPICE Simulation</summary>
+
+Files in `Spice Simulation`:
+
+* Simple resistor circuit examples (`circuit.sp`)
+
+**Usage & Insights:**
+
+* Run a simple SPICE simulation:
+
+```spice
+* Simple resistor circuit
+V1 in 0 0           ; Voltage source (value will be swept)
+R1 in 0 1k          ; Resistor of 1k ohm
+
+.dc V1 0 10 1       ; Sweep V1 from 0V to 10V in steps of 1V
+.print dc V(in) I(R) ; Print voltage and current
+.plot dc I(V1)       ; Plot current vs voltage
+
+.end
+```
+
+```bash
+ngspice circuit.sp
+```
+
+* Plot voltage/current waveforms to inspect circuit behavior.
+* Helps identify analog design issues **before fabrication**.
+
+<details>
+<summary>💡 Tip: Use interactive plotting</summary>
+
+```bash
+run
+plot I(V1)
+print V(in) I(V1)
+```
+
+> Interactive commands allow zooming, tracing, and analyzing signals in Ngspice.
+
+</details>
+
+</details>
 
 
 ✅ **Week 0 Takeaways:**
@@ -556,6 +647,7 @@ magic newlayout
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
