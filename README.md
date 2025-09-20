@@ -69,13 +69,13 @@ graph LR
   
 Week 0 was all about **preparing the sandbox**: installing, verifying and configuring the open-source EDA environment that powers the RTL-to-GDSII flow.
 
-* Installed and verified **Icarus Verilog**, **Yosys**, **GTKWave**.
+* Installed and verified **Icarus Verilog**, **Yosys**, **GTKWave**, **ngspice**, **Magic**.
 * Explored **environment setup** for RTL simulation and synthesis.
 * Prepared my system for the upcoming **RTL → GDSII flow**.
 
 ### 🔗 **Access Week 0 Details**
 - [Week 0 Folder](./week0/)
-- [Gist for Week 1](https://gist.github.com/tusharshenoy/gistid)
+- [Gist for Week 0](https://gist.github.com/tusharshenoy/gistid)
 
 <br>
 
