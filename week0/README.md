@@ -495,11 +495,12 @@ magic newlayout
 
 **Author:** T Tushar Shenoy
 
-**Repository:** RISC-V-SoC-Tapeout-Journey-From-RTL-Input-to-Silicon-Output
+**Repository:** [RISC-V-SoC-Tapeout-Journey-From-RTL-Input-to-Silicon-Output](https://github.com/tusharshenoy/RISC-V-SoC-Tapeout-Journey-From-RTL-Input-to-Silicon-Output)
 
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Begin **RTL design** and turn concepts into synthesizable Verilog code, ready for simulation and verification.
+
 
 
 
