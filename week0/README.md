@@ -653,6 +653,7 @@ plot V(1) I(V1)
 
 </details>
 
+</details>
 <br>
 
 ✅ **Week 0 Takeaways:**
@@ -679,6 +680,7 @@ plot V(1) I(V1)
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
