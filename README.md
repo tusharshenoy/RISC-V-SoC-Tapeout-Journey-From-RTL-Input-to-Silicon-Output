@@ -29,6 +29,18 @@ graph LR
     PD --> V[✅🟣 Verification & Signoff]
     V --> TO[🎯🔴 Tapeout Ready 🚀]
 ```
+## 🌟 Program Objectives & Scope
+
+| Aspect                    | Details                                                                             |
+| ------------------------- | ----------------------------------------------------------------------------------- |
+| 🎓 **Learning Path**      | End-to-end SoC Design covering RTL → Synthesis → Physical Design → Tapeout          |
+| 🛠️ **Tools Ecosystem**   | Open-source EDA stack (Icarus Verilog, Yosys, ngspice, OpenLane, Magic, SCL180 PDK) |
+| 🏭 **Industry Relevance** | Mimics real-world semiconductor design methodologies & tapeout flows                |
+| 🤝 **Collaboration**      | Contributing alongside 3500+ participants in India’s largest RISC-V SoC initiative  |
+| 📈 **Scalability**        | Practical exposure to handling designs that scale from RTL to physical layout       |
+| 🇮🇳 **National Impact**  | Strengthening India’s semiconductor design and VLSI ecosystem                       |
+
+
 ## 🛠️ Tools & Skills
 
 <div align="center">
@@ -43,17 +55,6 @@ graph LR
 </div>
 
 <br>
-
-## 🌟 Program Objectives & Scope
-
-| Aspect                    | Details                                                                             |
-| ------------------------- | ----------------------------------------------------------------------------------- |
-| 🎓 **Learning Path**      | End-to-end SoC Design covering RTL → Synthesis → Physical Design → Tapeout          |
-| 🛠️ **Tools Ecosystem**   | Open-source EDA stack (Icarus Verilog, Yosys, ngspice, OpenLane, Magic, SCL180 PDK) |
-| 🏭 **Industry Relevance** | Mimics real-world semiconductor design methodologies & tapeout flows                |
-| 🤝 **Collaboration**      | Contributing alongside 3500+ participants in India’s largest RISC-V SoC initiative  |
-| 📈 **Scalability**        | Practical exposure to handling designs that scale from RTL to physical layout       |
-| 🇮🇳 **National Impact**  | Strengthening India’s semiconductor design and VLSI ecosystem                       |
 
 
 <br>
@@ -163,7 +164,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <br>
 
-## 📌 Tracker
+## 📌 Progress Tracker
 
 | Week | Activity        | Progress                                      |
 | ---- | --------------- | --------------------------------------------- |
@@ -175,7 +176,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <br>
 
-## 📊 Activity Graph
+## 📊 Activity Graph (Contributions)
 
 ![Tushar's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=tusharshenoy&theme=github-compact&hide_border=true)
 
