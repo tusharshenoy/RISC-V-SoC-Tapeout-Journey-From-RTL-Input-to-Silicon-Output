@@ -481,6 +481,7 @@ magic newlayout
 | ⚡ Ngspice     | ✅ Installed | Circuit Simulation | Analog/mixed-signal verification                  |
 | 🎨 Magic VLSI | ✅ Installed | Layout Design      | Understanding of DRC and layout flow              |
 
+<br>
 
 ✅ **Week 0 Takeaways:**
 
@@ -499,6 +500,7 @@ magic newlayout
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Begin **RTL design** and turn concepts into synthesizable Verilog code, ready for simulation and verification.
+
 
 
 
