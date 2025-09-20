@@ -34,7 +34,7 @@ graph LR
 | Aspect                    | Details                                                                             |
 | ------------------------- | ----------------------------------------------------------------------------------- |
 | 🎓 **Learning Path**      | End-to-end SoC Design covering RTL → Synthesis → Physical Design → Tapeout          |
-| 🛠️ **Tools Ecosystem**   | Open-source EDA stack (Icarus Verilog, Yosys, ngspice, OpenLane, Magic, SCL180 PDK) |
+| 🛠️ **Tools Ecosystem**   | Open-source EDA stack (Icarus Verilog, Yosys, ngspice, GTKWave, Magic, SCL180 PDK) |
 | 🏭 **Industry Relevance** | Mimics real-world semiconductor design methodologies & tapeout flows                |
 | 🤝 **Collaboration**      | Contributing alongside 3500+ participants in India’s largest RISC-V SoC initiative  |
 | 📈 **Scalability**        | Practical exposure to handling designs that scale from RTL to physical layout       |
@@ -206,12 +206,8 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 ## 👨‍💻 About Me
 
-I am **Tushar Shenoy**, passionate about **VLSI design and semiconductor systems**.
-This repository goes beyond simply completing weekly tasks, it is a **living record of my learning journey** in the world of chip design. Through this, I aim to capture the process of translating **academic concepts into industry practices** and eventually, into **real silicon implementations**.
+I am **Tushar Shenoy**, passionate about **VLSI design and semiconductor systems**, and this repository serves as a **living record of my learning journey** in chip design. It captures how I translate **academic concepts into industry practices** and eventually into **real silicon implementations**, going beyond simply completing weekly tasks. My goal is not just to install tools or follow steps mechanically, but to **understand the “why” behind every stage**, from setting up the design environment to implementing architectures, running simulations, and analyzing results. In essence, this repository reflects my transition from **student-level exploration to professional design methodologies and finally to silicon-ready workflows**, laying a strong foundation for a career in **semiconductor technology and RTL design**.
 
-The goal is not just to master tool installations or follow steps mechanically, but to **understand the “why” behind every stage**, from setting up the design environment to implementing architectures, running simulations and analyzing results.
-
-In short, this repository reflects my transition from **student-level exploration → professional design methodologies → silicon-ready workflows**, building the foundation for a career in **semiconductor technology and RTL design**.
 
 📌 Follow along as I share weekly updates, technical insights and project outcomes!
 
