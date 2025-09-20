@@ -144,14 +144,13 @@ sudo make install
 ### **Verification & Insights:**
 
 * Run `yosys -V` to verify.
-* Learned how **dependencies like ABC submodule** are essential for successful synthesis.
 * Noted that missing dependencies can lead to obscure build errors — installing them upfront saves hours.
 
 
 
 ### 🛠️ Step-by-Step
 
-This repository documents the step-by-step process for setting up the **Yosys Open Synthesis Suite** from source on **Ubuntu Linux**, including dependencies, submodule handling, build instructions, and troubleshooting tips.
+Step-by-step process for setting up the **Yosys Open Synthesis Suite** from source on **Ubuntu Linux**, including dependencies, submodule handling, build instructions, and troubleshooting tips.
 
 
 ### 📖 Overview
@@ -573,6 +572,7 @@ magic newlayout
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Begin **RTL design** and turn concepts into synthesizable Verilog code, ready for simulation and verification.
+
 
 
 
