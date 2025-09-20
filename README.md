@@ -61,15 +61,17 @@ graph LR
 
 ## 🌟 Program Objectives & Scope
 
+<div align="center">
+
 | Aspect                    | Details                                                                             |
 | ------------------------- | ----------------------------------------------------------------------------------- |
 | 🎓 **Learning Path**      | End-to-end SoC Design covering RTL → Synthesis → Physical Design → Tapeout          |
 | 🛠️ **Tools Ecosystem**   | Open-source EDA stack (Icarus Verilog, GTKWave, Yosys, NGSpice, Magic & SCL180 PDK) |
 | 🏭 **Industry Relevance** | Mimics real-world semiconductor design methodologies & tapeout flows                |
 | 🤝 **Collaboration**      | Contributing alongside 3500+ participants in India’s largest RISC-V SoC initiative  |
-| 📈 **Scalability**        | Practical exposure to handling designs that scale from RTL to physical layout       |
 | 🇮🇳 **National Impact**  | Strengthening India’s semiconductor design and VLSI ecosystem                       |
 
+</div>
 <br>
 
 ## 🛠️ Tools & Skills
@@ -184,14 +186,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 ## 📌 Progress Tracker
 
 <div align="center">
-  
-| Week | Activity        | Progress                                      |
-| ---- | --------------- | --------------------------------------------- |
-| 0    | ![Week 0](https://img.shields.io/badge/Week%200-Tools%20Setup-success?style=flat-square)  | 🟩🟩🟩🟩🟩🟩🟩 100% |
-| 1    | ![Week 1](https://img.shields.io/badge/Week%201-Upcoming-lightgrey?style=flat-square)     | ⬜⬜⬜⬜⬜⬜⬜ 0%   |
-| 2    |![Week 1](https://img.shields.io/badge/Week%202-Upcoming-lightgrey?style=flat-square)   | ⬜⬜⬜⬜⬜⬜⬜ 0%      |
-| 3    | ![Week 1](https://img.shields.io/badge/Week%203-Upcoming-lightgrey?style=flat-square) | ⬜⬜⬜⬜⬜⬜⬜ 0%       |
-| 4    | ![Week 1](https://img.shields.io/badge/Week%204-Upcoming-lightgrey?style=flat-square)   | ⬜⬜⬜⬜⬜⬜⬜ 0%     |
+<img src="https://github.com/user-attachments/assets/934f4fdb-ada4-4a53-9ec4-78ec485df58f" width="900" height="300">
 
 
 </div>
@@ -208,7 +203,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 ### I am grateful to:
 
 * [**Kunal Ghosh**](https://github.com/kunalg123) and the [**VLSI System Design (VSD) Team**](https://vsdiat.vlsisystemdesign.com/) for enabling this unique learning experience.
-* [**RISC-V International**](https://riscv.org/), [**India Semiconductor Mission (ISM)**](https://ism.gov.in/), [**VLSI Society of India (VSI)**]([https://vsi.org.in/](https://www.linkedin.com/company/vlsi-society-of-india-vsi/posts/?feedView=all)) and [**Efabless**](Efabless) for supporting and driving this initiative.
+* [**RISC-V International**](https://riscv.org/), [**India Semiconductor Mission (ISM)**](https://ism.gov.in/), [**VLSI Society of India (VSI)**]([https://vsi.org.in/](https://www.linkedin.com/company/vlsi-society-of-india-vsi/posts/?feedView=all)) and [**Efabless**](https://chipfoundry.io/efabless) for supporting and driving this initiative.
 
 <br>
 
@@ -220,7 +215,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 [![RISC-V](https://img.shields.io/badge/RISC--V-International-green?style=flat-square)](https://riscv.org/)  
 👉 Home of the **RISC-V instruction set architecture**, providing open standards for CPUs used in this tapeout journey.  
 
-[![Efabless](https://img.shields.io/badge/Efabless-Platform-orange?style=flat-square)](https://efabless.com/)  
+[![Efabless](https://img.shields.io/badge/Efabless-Platform-orange?style=flat-square)](https://chipfoundry.io/efabless) 
 👉 A community-driven platform for **open-source silicon design** and shuttle runs where our designs eventually get fabricated.  
 
 <br>
@@ -229,6 +224,4 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 I am **Tushar Shenoy**, passionate about **VLSI design and semiconductor systems**. This repository is a **living record of my learning journey**, showing how I translate **academic concepts into industry practices** and ultimately into **real silicon implementations**. Beyond completing tasks, I focus on **understanding the “why” behind each step**, from setting up the environment to implementing architectures, running simulations and analyzing results. It reflects my progression from **student exploration to professional design workflows**, building a foundation for a career in **semiconductor technology and VLSI Design**.
 
-📌 Follow along as I share weekly updates, technical insights and project outcomes!
-
-🔥 *Journey from code → circuits → chips continues… Stay tuned!*
+📌 Follow along as I share weekly updates, technical insights, and project outcomes, the journey from code → circuits → chips continues… stay tuned! 🔥
