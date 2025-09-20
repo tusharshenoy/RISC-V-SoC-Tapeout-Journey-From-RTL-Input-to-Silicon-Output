@@ -110,6 +110,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 | ----- | ------------------------------------- | -------------------------- | ----------- |
 | **0** | Tool Installation & Environment Setup | Full Open-Source EDA Stack | ✅ Completed |
 
+
 </div>
 <br>
 
@@ -124,7 +125,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 | **Ngspice**        | Analog & mixed-signal simulation    | ✅ Verified |
 | **Magic VLSI**     | Layout design & DRC/LVS checks      | ✅ Verified |
   
-</div>div>
+</div>
 <br>
 
 **Key Learnings:**
