@@ -10,7 +10,6 @@
 
 </div>
 
-<br>
 
 ## 👋 Welcome
 
@@ -30,7 +29,6 @@ graph LR
     PD --> V[✅🟣 Verification & Signoff]
     V --> TO[🎯🔴 Tapeout Ready 🚀]
 ```
-
 ## 🛠️ Tools & Skills
 
 <div align="center">
