@@ -74,8 +74,8 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 * Explored **environment setup** for RTL simulation and synthesis.
 * Prepared my system for the upcoming **RTL → GDSII flow**.
 
-### 🔗 **Access Week 1 Details**
-- [Week 1 Folder](./week0/)
+### 🔗 **Access Week 0 Details**
+- [Week 0 Folder](./week0/)
 - [Gist for Week 1](https://gist.github.com/tusharshenoy/gistid)
 
 <br>
