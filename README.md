@@ -34,7 +34,7 @@ graph LR
 | Aspect                    | Details                                                                             |
 | ------------------------- | ----------------------------------------------------------------------------------- |
 | 🎓 **Learning Path**      | End-to-end SoC Design covering RTL → Synthesis → Physical Design → Tapeout          |
-| 🛠️ **Tools Ecosystem**   | Open-source EDA stack (Icarus Verilog, Yosys, ngspice, GTKWave, Magic, SCL180 PDK) |
+| 🛠️ **Tools Ecosystem**   | Open-source EDA stack (Icarus Verilog, GTKWave, Yosys, NGSpice, Magic & SCL180 PDK) |
 | 🏭 **Industry Relevance** | Mimics real-world semiconductor design methodologies & tapeout flows                |
 | 🤝 **Collaboration**      | Contributing alongside 3500+ participants in India’s largest RISC-V SoC initiative  |
 | 📈 **Scalability**        | Practical exposure to handling designs that scale from RTL to physical layout       |
@@ -206,7 +206,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 ## 👨‍💻 About Me
 
-I am **Tushar Shenoy**, passionate about **VLSI design and semiconductor systems**. This repository is a **living record of my learning journey**, showing how I translate **academic concepts into industry practices** and ultimately into **real silicon implementations**. Beyond completing tasks, I focus on **understanding the “why” behind each step**—from setting up the environment to implementing architectures, running simulations, and analyzing results. It reflects my progression from **student exploration to professional design workflows**, building a foundation for a career in **semiconductor technology and RTL design**.
+I am **Tushar Shenoy**, passionate about **VLSI design and semiconductor systems**. This repository is a **living record of my learning journey**, showing how I translate **academic concepts into industry practices** and ultimately into **real silicon implementations**. Beyond completing tasks, I focus on **understanding the “why” behind each step**—from setting up the environment to implementing architectures, running simulations, and analyzing results. It reflects my progression from **student exploration to professional design workflows**, building a foundation for a career in **semiconductor technology and VLSI Design**.
 
 📌 Follow along as I share weekly updates, technical insights and project outcomes!
 
