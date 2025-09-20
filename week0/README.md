@@ -21,12 +21,12 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 
 ## 🖥️ System Configuration
 
-| Specification | Required      | My System                               | Benefit                                                       |
-| ------------- | ------------- | --------------------------------------- | ------------------------------------------------------------- |
-| 🐧 OS         | Ubuntu 20.04+ | Ubuntu 22.04.5 LTS                      | Ensures compatibility with most open-source VLSI tools.       |
-| 💾 RAM        | 6 GB          | 7.1 GB total (\~2.9 GB free)            | Handles synthesis and simulation without lag.                 |
-| 💿 Storage    | 50 GB HDD     | 214 GB NVMe (45 GB free)                | Enough space for tools, source files and simulation results. |
-| ⚡ CPU         | 4 cores       | AMD Ryzen 5 4600H, 6 cores / 12 threads | Multi-threaded RTL processing is faster.                      |
+| Specification | Required      | My System                               |
+| ------------- | ------------- | --------------------------------------- |
+| 🐧 OS         | Ubuntu 20.04+ | Ubuntu 22.04.5 LTS                      | 
+| 💾 RAM        | 6 GB          | 7.1 GB total (\~2.9 GB free)            | 
+| 💿 Storage    | 50 GB HDD     | 214 GB NVMe (45 GB free)                | 
+| ⚡ CPU         | 4 cores       | AMD Ryzen 5 4600H, 6 cores / 12 threads | 
 
 
 <br>
@@ -36,12 +36,13 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 
 | Tool / Section         | Description                                         | Link                                             |
 | ---------------------- | --------------------------------------------------- | ------------------------------------------------ |
+| 🖥️ VLSI Tools Installation Script  | Script to Install whole setup           | [Go to Script](#vlsi-tools-installation)       |
 | 🧠 Yosys               | RTL synthesis tool                                  | [Go to Yosys](#yosys)        |
-| 📟 Icarus Verilog      | Compile & simulate Verilog HDL                      | [Go to Iverilog](#iverilog)    |
+| 📟 Icarus Verilog      | Compile & simulate Verilog HDL                      | [Go to iverilog](#iverilog)    |
 | 📊 GTKWave             | Waveform viewer for Verilog simulations             | [Go to GTKWave](#gtkwave)       |
 | ⚡ Ngspice              | Analog / mixed-signal circuit simulation            | [Go to Ngspice](#ngspice)      |
 | 🎨 Magic VLSI          | Layout & DRC tool for IC design                     | [Go to Magic VLSI](#magic)          |
-| 🖥️ Verilog Simulation | Full adder example simulation with Icarus & GTKWave | [Go](#21-verilog-simulation-example--full-adder) |
+| 🖥️ How to Use ?| Full adder example simulation/synthesis with Icarus, GTKWave & yosys <br> Example of Ngspice and Magic| [Go to How to Use](#how-to-use) |
 
 
 
@@ -56,7 +57,7 @@ flowchart LR
 ```
 
 
-### 🖥️ VLSI Tools Installation Script
+<h3 id="vlsi-tools-installation">🖥️ VLSI Tools Installation Script</h3>
 
 <details>
 <summary>Click to view description of VLSI Tools Installation Script</summary>
@@ -533,6 +534,10 @@ magic newlayout
 
 <br>
 
+<h2 id="how-to-use">🖥️ How to Use ?</h2>
+
+
+
 ✅ **Week 0 Takeaways:**
 
 * Built a **reliable toolchain** for full VLSI workflow.
@@ -551,6 +556,7 @@ magic newlayout
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
