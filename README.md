@@ -114,7 +114,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 <details>
 <summary><b>🛠️ Week 1: </b></summary>
 
-> ⚠️ Content coming soon! You can link to a folder or Gist for detailed notes.
+> ⚠️ Content coming soon!
 
 ### 🔗 **Access Week 1 Details**
 - [Week 1 Folder](./week1/)
@@ -129,7 +129,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 <details>
 <summary><b>🛠️ Week 2: </b></summary>
 
-> ⚠️ Content coming soon! Link to folder or Gist for detailed tasks.
+> ⚠️ Content coming soon!
 
 - [Week 2 Folder](./week2/)
 
@@ -141,7 +141,9 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <details>
 <summary><b>🛠️ Week 3: </b></summary>
-
+    
+> ⚠️ Content coming soon!
+    
 - [Week 3 Folder](./week3/)
 
 </details>
@@ -152,6 +154,8 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 
 <details>
 <summary><b>🛠️ Week 4: </b></summary>
+
+> ⚠️ Content coming soon!
 
 - [Week 4 Folder](./week4/)
 
