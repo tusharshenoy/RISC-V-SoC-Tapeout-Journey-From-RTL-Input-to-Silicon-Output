@@ -24,7 +24,6 @@ Here, I record my **week-by-week progress**, from setting up tools, to RTL desig
 ## 🎯 Program Flow: From Idea → Silicon
 ```mermaid
 graph LR
-    
     TI[🛠️🔵 Tools Installation] --> RTL[📝🟢 RTL Design]
     RTL --> SYN[🔄🟡 Synthesis]
     SYN --> PD[🏗️🟠 Physical Design]
