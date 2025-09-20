@@ -558,11 +558,11 @@ gtkwave full_adder.vcd
 
 </details>
 
-<br>
 
 <details>
     
 <summary>2️⃣ RTL Synthesis with Yosys</summary>
+<br>
 
 Files in `Verilog Simulation` (same folder):
 
@@ -592,7 +592,8 @@ write_json full_adder.json
 
 <details>
 <summary>3️⃣ Ngspice – SPICE Simulation</summary>
-
+<br>
+    
 Files in `Spice Simulation`:
 
 * Simple resistor circuit examples (`circuit.sp`)
@@ -654,6 +655,7 @@ print V(in) I(V1)
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
