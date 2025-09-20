@@ -511,7 +511,7 @@ magic
 
 <h2 id="how-to-use">🖥️ How to Use ?</h2>
 
-### 🖥️ Full Adder Example Simulation & Synthesis
+### 🖥️ Full Adder Example Simulation & Synthesis & Ngspice – SPICE Simulation
 
 This demonstrates a **full adder design workflow** using **Icarus Verilog, GTKWave and Yosys** for digital simulation and synthesis.  
 Verilog files are inside the `Verilog Simulation` folder, while analog examples using Ngspice are in `Spice Simulation`.
@@ -693,3 +693,4 @@ plot V(1) I(V1)
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
