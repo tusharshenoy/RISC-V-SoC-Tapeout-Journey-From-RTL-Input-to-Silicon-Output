@@ -187,11 +187,11 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
   
 | Week | Activity        | Progress                                      |
 | ---- | --------------- | --------------------------------------------- |
-| 0    | ![Week 0](https://img.shields.io/badge/Week%200-Tools%20Setup-success?style=flat-square)  | 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩 100% |
-| 1    | ![Week 1](https://img.shields.io/badge/Week%201-Upcoming-lightgrey?style=flat-square)     | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%                       |
-| 2    |![Week 1](https://img.shields.io/badge/Week%202-Upcoming-lightgrey?style=flat-square)   | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%                       |
-| 3    | ![Week 1](https://img.shields.io/badge/Week%203-Upcoming-lightgrey?style=flat-square) | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%                       |
-| 4    | ![Week 1](https://img.shields.io/badge/Week%204-Upcoming-lightgrey?style=flat-square)   | ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ 0%                       |
+| 0    | ![Week 0](https://img.shields.io/badge/Week%200-Tools%20Setup-success?style=flat-square)  | 🟩🟩🟩🟩🟩🟩🟩 100% |
+| 1    | ![Week 1](https://img.shields.io/badge/Week%201-Upcoming-lightgrey?style=flat-square)     | ⬜⬜⬜⬜⬜⬜⬜ 0%   |
+| 2    |![Week 1](https://img.shields.io/badge/Week%202-Upcoming-lightgrey?style=flat-square)   | ⬜⬜⬜⬜⬜⬜⬜ 0%      |
+| 3    | ![Week 1](https://img.shields.io/badge/Week%203-Upcoming-lightgrey?style=flat-square) | ⬜⬜⬜⬜⬜⬜⬜ 0%       |
+| 4    | ![Week 1](https://img.shields.io/badge/Week%204-Upcoming-lightgrey?style=flat-square)   | ⬜⬜⬜⬜⬜⬜⬜ 0%     |
 
 
 </div>
