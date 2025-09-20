@@ -571,7 +571,8 @@ magic newlayout
 
 **Program:** VLSI System Design (VSD)
 
-> 💡 Next week: Begin **RTL design** and turn concepts into synthesizable Verilog code, ready for simulation and verification.
+> 💡 Next week: Yet to be Started
+
 
 
 
