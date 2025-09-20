@@ -28,6 +28,27 @@ Here, I record my **week-by-week progress**, from setting up tools, to RTL desig
 </p>
 <br>
 
+## ⚡ Quick Access
+
+<div align="center">
+
+<h3>
+
+| Week | Title                        | Folder Link        |
+| ---- | ---------------------------- | ------------------ |
+| 0    | 🛠️ Foundation & Tools Setup | [Week 0](./week0/) |
+| 1    | 🚀 (Coming Soon)             | [Week 1](./week1/) |
+| 2    | 🔄 (Coming Soon)             | [Week 2](./week2/) |
+| 3    | 🏗️ (Coming Soon)            | [Week 3](./week3/) |
+| 4    | 🎯 (Coming Soon)             | [Week 4](./week4/) |
+
+</h3>
+
+</div>
+
+<br>
+
+
 ## 🎯 Program Flow: From Idea → Silicon
 ```mermaid
 graph LR
