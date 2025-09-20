@@ -21,6 +21,9 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 
 ## 🖥️ System Configuration
 
+<div align="center">
+
+
 | Specification | Required      | My System                               |
 | ------------- | ------------- | --------------------------------------- |
 | 🐧 OS         | Ubuntu 20.04+ | Ubuntu 22.04.5 LTS                      | 
@@ -28,6 +31,7 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 | 💿 Storage    | 50 GB HDD     | 214 GB NVMe (45 GB free)                | 
 | ⚡ CPU         | 4 cores       | AMD Ryzen 5 4600H, 6 cores / 12 threads | 
 
+</div>
 
 <br>
 
@@ -44,7 +48,7 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 | 🎨 Magic VLSI          | Layout & DRC tool for IC design                     | [Go to Magic VLSI](#magic)          |
 | 🖥️ How to Use ?| Full adder example simulation/synthesis with Icarus, GTKWave & yosys <br> Example of Ngspice and Magic| [Go to How to Use](#how-to-use) |
 
-
+<br>
 
 ## ⚙️ Week 0 Tool Installation & Insights
 
@@ -76,6 +80,8 @@ The script, `toolinstallationscript.sh`, does the following:
 
 **Tools handled by the script:**
 
+<div align="center">
+
 | #️⃣ | Tool           | Purpose                                 |
 | --- | -------------- | --------------------------------------- |
 | 1️⃣ | Yosys          | RTL synthesis                           |
@@ -84,13 +90,16 @@ The script, `toolinstallationscript.sh`, does the following:
 | 4️⃣ | Ngspice        | Analog & mixed-signal circuit simulator |
 | 5️⃣ | Magic VLSI     | Layout design and DRC tool              |
 
+</div>
+
+
 ## ⚙️ Usage Instructions
 
 ### 1️⃣ Clone the repository (if using GitHub)
 
 ```bash
 git clone https://github.com/tusharshenoy/RISC-V-SoC-Tapeout-Journey-From-RTL-Input-to-Silicon-Output.git
-cd RISC-V-SoC-Tapeout-Journey-From-RTL-Input-to-Silicon-Output/
+cd RISC-V-SoC-Tapeout-Journey-From-RTL-Input-to-Silicon-Output/week0
 ````
 
 ### 2️⃣ Make the script executable
@@ -486,6 +495,8 @@ magic
 
 ## 🎉 Week 0 Summary & Key Learnings
 
+<div align="center">
+
 | Tool          | Status      | Purpose            | Key Insight                                       |
 | ------------- | ----------- | ------------------ | ------------------------------------------------- |
 | 🧠 Yosys      | ✅ Installed | RTL Synthesis      | Learned importance of dependencies and submodules |
@@ -493,6 +504,8 @@ magic
 | 📊 GTKWave    | ✅ Installed | Waveform Analysis  | Visual signal debugging enhances understanding    |
 | ⚡ Ngspice     | ✅ Installed | Circuit Simulation | Analog/mixed-signal verification                  |
 | 🎨 Magic VLSI | ✅ Installed | Layout Design      | Understanding of DRC and layout flow              |
+
+</div>
 
 <br>
 
@@ -680,24 +693,3 @@ plot V(1) I(V1)
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
