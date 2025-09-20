@@ -535,6 +535,10 @@ This generates the `full_adder.vcd` waveform file.
 ```bash
 gtkwave full_adder.vcd
 ```
+<img width="1846" height="993" alt="Screenshot from 2025-09-20 18-50-24" src="https://github.com/user-attachments/assets/945b766e-6147-4f8e-b327-8c0c4221d493" />
+
+<img width="1844" height="1043" alt="Screenshot from 2025-09-20 18-51-14" src="https://github.com/user-attachments/assets/1c7e1ce6-f595-48e1-b13f-5b60e769a745" />
+
 
 > Notes:
 > * Ensure **Icarus Verilog** and **GTKWave** are installed.
@@ -554,6 +558,7 @@ gtkwave full_adder.vcd
 
 </details>
 
+<br>
 
 <details>
     
@@ -568,6 +573,7 @@ Files in `Verilog Simulation` (same folder):
 ```bash
 yosys
 ```
+<img width="1830" height="962" alt="Yosys Steps 1" src="https://github.com/user-attachments/assets/40091486-b094-4cd2-9331-fdef263e3f50" />
 
 Inside Yosys console:
 
@@ -577,6 +583,7 @@ synth -top full_adder
 show
 write_json full_adder.json
 ```
+<img width="1840" height="994" alt="Synthesized Output" src="https://github.com/user-attachments/assets/8e087396-d997-4205-9a3c-d02af20b641d" />
 
 > * `show` opens a graphical netlist view.
 > * `write_json` generates a netlist file for further use in backend flows.
@@ -647,6 +654,7 @@ print V(in) I(V1)
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
