@@ -186,7 +186,7 @@ Week 0 was all about **preparing the sandbox**: installing, verifying and config
 ## 📌 Progress Tracker
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/934f4fdb-ada4-4a53-9ec4-78ec485df58f" width="900" height="300">
+<img src="https://github.com/user-attachments/assets/934f4fdb-ada4-4a53-9ec4-78ec485df58f" width="860" height="300">
 
 
 </div>
