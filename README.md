@@ -62,7 +62,7 @@ graph LR
 ## 📅 **Week 0 — Foundation & Tools Setup**
 
 <details>
-<summary><b>🛠️ Week 0: Installing & Configuring the EDA Toolchain</b></summary>
+<summary><b>Installing & Configuring the EDA Toolchain</b></summary>
 <br>
   
 Week 0 was all about **preparing the sandbox**: installing, verifying and configuring the open-source EDA environment that powers the RTL-to-GDSII flow.
