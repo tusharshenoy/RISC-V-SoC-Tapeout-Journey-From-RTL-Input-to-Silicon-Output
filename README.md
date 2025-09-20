@@ -16,8 +16,16 @@
 This repository documents **my personal journey through the RISC-V SoC Tapeout Program (VSD)**.
 Here, I record my **week-by-week progress**, from setting up tools, to RTL design, to synthesis, physical design and finally preparing a **tapeout-ready SoC**.
 
-> *“Learning to design a System-on-Chip (SoC) from basic RTL to GDSII using open-source tools — part of India’s largest collaborative RISC-V tapeout initiative, empowering 3500+ participants to build silicon and advance the nation’s semiconductor ecosystem.”*
+> *“Learning to design a System-on-Chip (SoC) from basic RTL to GDSII using open-source tools, part of India’s largest collaborative RISC-V tapeout initiative, empowering 3500+ participants to build silicon and advance the nation’s semiconductor ecosystem.”*
 
+<br>
+
+<p align="center">
+  <img src="https://cdn.dribbble.com/userupload/25266435/file/original-80b47ebe181ae73b3afb9098bdaf594a.gif" 
+       alt="VLSI GIF" 
+       width="550" 
+       height="300"/>
+</p>
 <br>
 
 ## 🎯 Program Flow: From Idea → Silicon
@@ -29,6 +37,7 @@ graph LR
     PD --> V[✅🟣 Verification & Signoff]
     V --> TO[🎯🔴 Tapeout Ready 🚀]
 ```
+
 ## 🌟 Program Objectives & Scope
 
 | Aspect                    | Details                                                                             |
