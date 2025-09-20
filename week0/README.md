@@ -37,10 +37,10 @@ Week 0 marks the **start of my VLSI System Design (VSD) journey**. The main goal
 | Tool / Section         | Description                                         | Link                                             |
 | ---------------------- | --------------------------------------------------- | ------------------------------------------------ |
 | 🧠 Yosys               | RTL synthesis tool                                  | [Go to Yosys](#yosys)        |
-| 📟 Icarus Verilog      | Compile & simulate Verilog HDL                      | [Go](#2️⃣-iverilog--verilog-simulation-🖥️)      |
-| 📊 GTKWave             | Waveform viewer for Verilog simulations             | [Go](#3️⃣-🖥️-gtkwave--waveform-viewer)          |
-| ⚡ Ngspice              | Analog / mixed-signal circuit simulation            | [Go](#4️⃣-🖥️-ngspice--circuit-simulation)       |
-| 🎨 Magic VLSI          | Layout & DRC tool for IC design                     | [Go](#5️⃣-🖥️-magic-vlsi--layout-tool)           |
+| 📟 Icarus Verilog      | Compile & simulate Verilog HDL                      | [Go to Iverilog](#iverilog)    |
+| 📊 GTKWave             | Waveform viewer for Verilog simulations             | [Go to GTKWave](#gtkwave)       |
+| ⚡ Ngspice              | Analog / mixed-signal circuit simulation            | [Go to Ngspice](#ngspice)      |
+| 🎨 Magic VLSI          | Layout & DRC tool for IC design                     | [Go to Magic VLSI](#magic)          |
 | 🖥️ Verilog Simulation | Full adder example simulation with Icarus & GTKWave | [Go](#21-verilog-simulation-example--full-adder) |
 
 
@@ -270,7 +270,7 @@ yosys -V
 
 <br>
 
-## 2️⃣ iverilog – Verilog Simulation 🖥️
+<h2 id="iverilog">2️⃣ iverilog – Verilog Simulation 🖥️</h2>
 
 [![Ubuntu](https://img.shields.io/badge/OS-Ubuntu_22.04.5-blue)](https://ubuntu.com/)
 [![iverilog](https://img.shields.io/badge/iverilog-Latest-orange)](http://iverilog.icarus.com/)
@@ -333,7 +333,7 @@ sudo apt-get upgrade iverilog
 <br>
 
 
-## 3️⃣ 🖥️ GTKWave – Waveform Viewer
+<h2 id="gtkwave">3️⃣ 🖥️ GTKWave – Waveform Viewer</h2>
 
 [![Ubuntu](https://img.shields.io/badge/OS-Ubuntu_22.04.5-blue)](https://ubuntu.com/)
 [![GTKWave](https://img.shields.io/badge/GTKWave-Latest-orange)](http://gtkwave.sourceforge.net/)
@@ -399,7 +399,7 @@ gtkwave simulation.vcd
 
 <br>
 
-## 4️⃣ 🖥️ Ngspice – Circuit Simulation
+<h2 id="ngspice">4️⃣ 🖥️ Ngspice – Circuit Simulation</h2>
 
 [![Ubuntu](https://img.shields.io/badge/OS-Ubuntu_22.04.5-blue)](https://ubuntu.com/)
 [![Ngspice](https://img.shields.io/badge/Ngspice-Latest-green)](http://ngspice.sourceforge.net/)
@@ -446,7 +446,7 @@ ngspice -v
 
 <br>
 
-## 5️⃣ 🖥️ Magic VLSI – Layout Tool
+<h2 id="magic">5️⃣ 🖥️ Magic VLSI – Layout Tool</h2>
 
 [![Ubuntu](https://img.shields.io/badge/OS-Ubuntu_22.04.5-blue)](https://ubuntu.com/)
 [![Magic VLSI](https://img.shields.io/badge/Magic-Latest-orange)](https://github.com/RTimothyEdwards/magic)
