@@ -616,26 +616,40 @@ R1 1 0 10k          ; Resistor of 10k ohm
 ```bash
 ngspice circuit.sp
 ```
+<img width="1832" height="583" alt="ngspice circuit sp command" src="https://github.com/user-attachments/assets/644ce7d9-53c2-4c3a-b80a-a3ef8fe15b1c" />
+
 or
 
 ```bash
 ngspice -b circuit.sp
 ```
+<img width="1834" height="983" alt="ngspice -b command" src="https://github.com/user-attachments/assets/808f992f-a109-4aab-b6e8-8dd774f547ee" />
 
 ```bash
 run
 print V(1) I(V1)
+```
+<img width="1833" height="781" alt="run and print commands" src="https://github.com/user-attachments/assets/43d7edf0-1aca-4cfa-bcf4-6d96a3828a50" />
+
+```bash
 plot I(V1)
-plot V(1) I(V1)
 ```
 
-<details>
-<summary>💡 Tip: Use interactive plotting</summary>
-* Plot voltage/current waveforms to inspect circuit behavior.
-* Helps identify analog design issues **before fabrication**.
-* Interactive commands allow zooming, tracing and analyzing signals in Ngspice.
+<img width="1830" height="783" alt="plot Current" src="https://github.com/user-attachments/assets/863a22ac-b043-479b-b120-ef1b6acc5af6" />
 
-</details>
+```bash
+plot V(1) I(V1)
+```
+<img width="1830" height="848" alt="plot Voltage and Current" src="https://github.com/user-attachments/assets/b3e2973f-ce95-48c3-8134-c84a64b71fa2" />
+
+<br>
+<details>
+    <br>
+<summary>💡 Tip: Use interactive plotting in Ngspice</summary>
+
+* Plot voltage/current waveforms to inspect circuit behavior.  
+* Helps identify analog design issues **before fabrication**.  
+* Interactive commands allow **zooming, tracing, and analyzing signals** in Ngspice:
 
 </details>
 
@@ -665,6 +679,7 @@ plot V(1) I(V1)
 **Program:** VLSI System Design (VSD)
 
 > 💡 Next week: Yet to be Started
+
 
 
 
